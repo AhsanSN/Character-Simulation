@@ -12,7 +12,7 @@ const movement = new Movement();
 
 movement.on("movedRight", (arg)=>{
 	console.log("Heard the character move steps", arg);
-})
+});
 
 
 //moving
